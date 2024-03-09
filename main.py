@@ -21,3 +21,20 @@ Python has the following data types built-in by default, in these categories:
 8. None Type: NoneType
 
 '''
+# strings
+str = 'some string'
+
+# list (like array in js)
+items = [1, True, 'false']
+items2 = [5, 'six', False]
+
+# can get same elemets from start index to end index, exclude end index
+itemsFromInterval = items[1:3] # new list: [True, 'false']
+itemsFromIndexToEnd = items[2:] # new list: ['false']
+itemsFromStartToIndex = items[:2] # new list: [1, True]
+
+# cobine lists 
+itemsCombined = items + items2 # [1, True, 'false', 5, 'six', False]
+
+
+# print(itemsCombined)
